@@ -58,10 +58,10 @@ async createAndBuy(
   - `finality`: Finality level (default: DEFAULT_FINALITY).
 - **Returns**: A promise that resolves to a `TransactionResult`.
 
-## Contributing
+# Contributing
 We welcome contributions! Please submit a pull request or open an issue to discuss any changes.
 
-## License
+# License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 If you want a new feature or if you want to increase number of wallet that bundle buy plz contact me.
