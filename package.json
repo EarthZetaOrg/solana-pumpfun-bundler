@@ -1,6 +1,6 @@
 {
   "name": "pumpdotfun-bundler",
-  "author": "Rabnail",
+  "author": "Earthzeta",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf dist/ && npm run build:node && npm run build:browser",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rabnail-SOL/Solana-PumpFun-Bundler.git"
+    "url": "https://github.com/earthzeta/solana-pumpfun-bundler.git"
   },
   "keywords": [
     "pumpdotfun",
