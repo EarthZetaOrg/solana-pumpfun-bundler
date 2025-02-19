@@ -1,6 +1,18 @@
 {
-  "name": "pumpdotfun-bundler",
+  "name": "pumpfun-bundler",
   "author": "Earthzeta",
+  "version": "0.0.1",
+  "description": "Pumpfun Bundler",
+  "license": "MIT",
+  "keywords": [
+    "pumpfun",
+    "bundler",
+    "solana"
+  ],
+  "homepage": "https://github.com/earthzetaorg/solana-pumpfun-bundler",
+  "bugs": {
+    "url": "https://github.com/earthzetaorg/solana-pumpfun-bundler/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf dist/ && npm run build:node && npm run build:browser",
@@ -8,6 +20,10 @@
     "build:browser": "rollup -c rollup.config.js --bundleConfigAsCjs",
     "start": "npx ts-node ./example/basic/index.ts"
   },
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist",
     "types"
@@ -16,12 +32,6 @@
     "type": "git",
     "url": "https://github.com/earthzetaorg/solana-pumpfun-bundler.git"
   },
-  "keywords": [
-    "pumpdotfun",
-    "sdk",
-    "solana"
-  ],
-  "license": "ISC",
   "devDependencies": {
     "@coral-xyz/borsh": "^0.30.1",
     "@rollup/plugin-commonjs": "^26.0.1",
